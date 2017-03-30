@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-################################################################################################
+###################################################################################################
 # axfr.py:	Attempts zone transfers (axfr queries) on multiple domains in a list against
 #		a single name server.
 # Example:	$ axfr.py -n nameserver.target.com -d list_of_domains.txt
-# Author:	VIVI | <Website: thevivi.net> | <Email: gabriel@thevivi.net> | <Twitter: @_V1VI>
-################################################################################################
+# Author:	VIVI | <Website: thevivi.net> | <Email: gabriel@thevivi.net> | <Twitter: @_theVIVI>
+###################################################################################################
 
 import argparse
 from subprocess import Popen, PIPE, STDOUT
